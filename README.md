@@ -1,15 +1,14 @@
-# Terraform AWS Infrastructure 🚀
 
-This project builds a full-featured AWS environment using Terraform with modular design and CI/CD support.
+Everything is modular:
+- `modules/ec2/`
+- `modules/alb/`
+- `modules/rds/`
+- `modules/s3/`
 
-## 🔧 What It Does
+## ✅ How to Use
 
-- 🚀 Provisions multiple EC2 instances (using modules)
-- ⚖️ Deploys an Application Load Balancer
-- 📦 Creates an S3 bucket for storage/logs
-- 🛢 Sets up an RDS PostgreSQL database
-- 🔄 CI/CD enabled with GitHub Actions
-
-## 🧱 Architecture
-
-
+```bash
+terraform init
+terraform plan
+terraform apply
+-
